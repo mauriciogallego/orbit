@@ -1,0 +1,25 @@
+@import "../../assets/styles/common.scss";
+$bg: url("../../assets/Backgrounds/Bg_Header.png");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2%;
+  background: $bg;
+  background-size: contain;
+  .containerTitleFilter {
+    margin: 2%;
+    .titleFilter {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    .containerTitleFilter {
+      margin: 10% 0;
+    }
+  }
+}

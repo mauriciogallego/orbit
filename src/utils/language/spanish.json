@@ -1,0 +1,16 @@
+{
+  "buttonHome": "Inicio",
+  "title": "Bienvenido a la Api de [Pokemon]",
+  "subtitle" : "Aqui [encontrarás] todo lo referente a [pokemon]",
+  "searchTech": "Escriba tu pokemon",
+  "language": "lenguaje",
+  "labelInput1": "[Pokemon:] ",
+  "labelInput2": "[tipo:] ",
+  "abilities": "[Habilidades]",
+  "description": "[Descripcion]",
+  "height": "[altura]",
+  "weight": "[ancho]",
+  "experience": "[experiencia]",
+  "send": "enviar",
+  "buttonList": "Listado"
+}

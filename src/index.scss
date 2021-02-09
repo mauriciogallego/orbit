@@ -1,0 +1,27 @@
+@font-face { font-family: "Monserrat-Regular"; src: url('assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');}
+@font-face { font-family: "Montserrat-Bold"; src: url('assets/Fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');}
+@font-face { font-family: "Montserrat-SemiBold"; src: url('assets/Fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');}
+@font-face { font-family: "FiraSans-SemiBold"; src: url('assets/Fonts/Fira_Sans/FiraSans-SemiBold.ttf') format('truetype');}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Monserrat-Regular', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

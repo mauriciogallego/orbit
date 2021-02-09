@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+
+  .containerCard {
+    margin: 10px 0px;
+  }
+}

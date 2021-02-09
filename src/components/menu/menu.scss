@@ -1,0 +1,82 @@
+@import "../../assets/styles/common.scss";
+
+.logo {
+  width: 15rem;
+  }
+.containerMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .containerButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .buttonClasic {
+    color: rgba(0, 0, 0, 0.507);
+    &:hover {
+      color: black;
+    }
+  }
+  .containerButton3 {
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+    width: min-content;
+    align-items: center;
+    justify-content: center;
+    .button3 {
+      border-color: $blue;
+      color: $blue;
+
+      &:hover {
+        color: white;
+      }
+      &:hover::after {
+        transform: scale(1);
+        opacity: 1;
+      }
+      &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(0.1);
+        z-index: -1;
+        opacity: 0;
+        background: $blue;
+        transition: all 0.25s ease;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    cursor: pointer;
+  }
+  .containerMenu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .containerButton {
+      height: min-content;
+      flex-direction: column;
+      align-items: center;
+    }
+    .burger {
+      transform: translate(0%);
+      transition: all 0.25s ease;
+    }
+    .burgerHide{
+      transform: translate(0%, -200%);
+      transition: all 0.25s ease;
+      height: 100px;
+    }
+
+  }
+}

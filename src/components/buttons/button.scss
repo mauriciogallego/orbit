@@ -1,0 +1,24 @@
+@import "../../assets/styles/common.scss";
+
+.button {
+  background-color: transparent;
+  border-radius: 28px;
+  border: 2px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+  padding: 13px 66px;
+  text-decoration: none;
+  font-family: "Montserrat-SemiBold";
+  font-size: 1.35rem;
+
+  &:focus{
+    outline: none;
+  }
+  &:hover {
+    background-color: transparent;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
